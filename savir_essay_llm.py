@@ -4,7 +4,7 @@ from langchain import LLMChain
 
 
 def generate_report(essay_title, essay):
-    api_key = 'AIzaSyCWS8sL04uunSJIww-5KNEcS-h4jFYhal4'
+    api_key = 'APIKEY'
     llm = GooglePalm(google_api_key=api_key,temperature=0.2)
 
     prompt_template = """Imagine you are a teacher tasked with grading an essay.
