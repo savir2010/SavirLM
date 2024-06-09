@@ -11,7 +11,7 @@ from langchain.chains import LLMChain
 # response = generate('mistral', 'Why is the sky blue?')
 # print(response['response'])
 
-api_key = 'AIzaSyCWS8sL04uunSJIww-5KNEcS-h4jFYhal4'
+api_key = 'APIKEY'
 tokenizer = AutoTokenizer.from_pretrained('nlptown/bert-base-multilingual-uncased-sentiment')
 model = AutoModelForSequenceClassification.from_pretrained('nlptown/bert-base-multilingual-uncased-sentiment')
 
